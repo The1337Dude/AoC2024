@@ -10,6 +10,7 @@ int main()
     Solution->Initialize(AoCHelpers::ProcessInput(1));
 
     cout << Solution->GetResult(1) << endl;
+    cout << Solution->GetResult(2) << endl;
 
     return 0;
 }
