@@ -3,4 +3,7 @@ project(AoC2024)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(AoC2024 main.cpp)
+include_directories(Source)
+add_executable(AoC2024 Source/main.cpp
+        Source/Helpers/AoCHelpers.cpp
+        Source/Solutions/AoCSolution1.cpp)
