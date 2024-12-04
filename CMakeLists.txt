@@ -8,7 +8,9 @@ add_executable(AoC2024 Source/main.cpp
         Source/Helpers/AoCHelpers.cpp
         Source/Solutions/AoCSolution1.cpp
         Input/1.txt
-        )
+        Source/Solutions/AoCSolution2.cpp
+        Source/Solutions/AoCSolution2.h
+)
 
 add_custom_command(
         TARGET AoC2024 POST_BUILD

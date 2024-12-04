@@ -61,6 +61,17 @@ namespace AoCHelpers
         return sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2) * 1.0);
     }
 
+    vector<int32_t> Convert(const vector<string>& InStringArray)
+    {
+        vector<int32_t> IntArray;
+        for (const auto& StringItem : InStringArray)
+        {
+            IntArray.push_back(atoi(StringItem.data()));
+        }
+
+        return IntArray;
+    }
+
     vector<PositionType> GetAdjacentPositions(const int MaxRow, const int MaxColumn, const PositionType& CurrentPosition)
     {
         const vector<PositionType> PositionModifiers = { {-1, -1}, {-1,0}, {-1,1}, {0, 1}, {1,1}, {1,0}, {1, -1}, {0,-1}};

@@ -31,6 +31,7 @@ namespace AoCHelpers
     vector<string> Tokenize(const string& InputString, const char& Token);
     float distance(int x1, int y1, int x2, int y2);
     float distance(int x1, int y1, int x2, int y2);
+    vector<int32_t> Convert(const vector<string>& InStringArray);
 
     template<typename T>
     void LogList(const vector<T>& List)
