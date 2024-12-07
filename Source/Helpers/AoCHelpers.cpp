@@ -72,6 +72,19 @@ namespace AoCHelpers
         return IntArray;
     }
 
+    bool IsNumeric(const string &InString)
+    {
+        for (const auto& CharInString : InString)
+        {
+            if (!isdigit(CharInString))
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
     vector<PositionType> GetAdjacentPositions(const int MaxRow, const int MaxColumn, const PositionType& CurrentPosition)
     {
         const vector<PositionType> PositionModifiers = { {-1, -1}, {-1,0}, {-1,1}, {0, 1}, {1,1}, {1,0}, {1, -1}, {0,-1}};

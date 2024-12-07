@@ -32,6 +32,7 @@ namespace AoCHelpers
     float distance(int x1, int y1, int x2, int y2);
     float distance(int x1, int y1, int x2, int y2);
     vector<int32_t> Convert(const vector<string>& InStringArray);
+    bool IsNumeric(const string& InString);
 
     template<typename T>
     void LogList(const vector<T>& List)
