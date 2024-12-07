@@ -7,11 +7,12 @@ include_directories(Source)
 add_executable(AoC2024 Source/main.cpp
         Source/Helpers/AoCHelpers.cpp
         Source/Solutions/AoCSolution1.cpp
-        Input/1.txt
         Source/Solutions/AoCSolution2.cpp
         Source/Solutions/AoCSolution2.h
         Source/Solutions/AoCSolution3.cpp
         Source/Solutions/AoCSolution3.h
+        Source/Solutions/AoCSolution4.cpp
+        Source/Solutions/AoCSolution4.h
 )
 
 add_custom_command(
