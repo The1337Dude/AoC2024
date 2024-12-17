@@ -15,6 +15,8 @@ add_executable(AoC2024 Source/main.cpp
         Source/Solutions/AoCSolution4.h
         Source/Solutions/AoCSolution5.cpp
         Source/Solutions/AoCSolution5.h
+        Source/Solutions/AoCSolution6.cpp
+        Source/Solutions/AoCSolution6.h
 )
 
 add_custom_command(
